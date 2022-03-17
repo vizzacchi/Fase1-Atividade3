@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Hubballi', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vmin;
+}
+.header__top{
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.header__title{
+    font-family: 'Hubballi', cursive;
+    font-size: 7vmin;
+    font-weight: 900;
+}
+.header__title a{
+    text-decoration: none;
+    color: #fff;
+}
+.header__title a:hover{
+    color: rgb(248, 244, 6);
+    font-size: 6.5vmin;
+    transition: 0.5s;
+}
+.header__nav ul{
+    font-family: 'Hubballi', cursive;
+    font-size: 4vmin;
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+.header__nav li{
+    padding: 0 5px;
+}
+.header__nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.header__nav li a:hover{
+    font-size: 4.5vmin;
+    color: rgb(248, 244, 6);
+    transition: 0.5s;
+}
+main{
+    width: 100%;
+}
+.serie{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Serie-Friends.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50%;
+}
+.pontos{
+    width: 100%;
+    margin: 30px 0;
+}
+.pontos__title{
+    font-family: 'Hubballi', cursive;
+    font-size: 6vmin;
+    text-align: center;
+    padding: 10px;
+}
+.pontos__sub{
+    font-size: 4vmin;
+    text-align: center;
+    padding: 10px;
+}
+.friends{
+    font-family: 'Hubballi', cursive;
+    font-size: 5vmin;
+    font-weight: 700;
+    color:#a82be2;
+}
+.pontos__person{
+    background-color: #a82be2;
+    margin: 20px auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+}
+.pontos_cards{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content:space-around;
+}
+.cards{
+    width: 30%;
+}
+.cards__image{
+    width: 100%;
+    border-radius: 5px;
+}
+.cards__text{
+    font-size: 3vmin;
+    text-align: justify;
+    margin:5px;
+}
+.cards a{
+    text-decoration: none;
+    color: #a82be2;
+    font-weight: 700;
+    font-size:3vmin;
+}
+.cards a:hover{
+    font-size: 3.5vmin;
+}
+.desc__serie{
+    width:80%;
+    margin:10px auto;
+}
+.desc__serie__title{
+    font-size: 6vmin;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+    padding: 10px;
+}
+.desc__serie__text{
+    font-size: 3vmin;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.central__perk{
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+    align-items: botton;
+}
+.central__perk__image{
+    height: 140%;
+}
+footer{
+    position: relative;
+}
+.footer__desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    z-index: 1;
+}
+.footer__image{
+    height: 20vmin;
+}
+.footer__title{
+    font-family: 'Hubballi', cursive;
+    font-size: 5vmin;
+    font-weight: 700;
+}
+.footer__text{
+    font-size: 3vmin;
+}
+
