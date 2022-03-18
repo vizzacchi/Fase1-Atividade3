@@ -48,7 +48,7 @@ body{
     align-items: center;
 }
 .header__nav li{
-    padding: 0 5px;
+    padding: 0 8px;
 }
 .header__nav li a{
     text-decoration: none;
@@ -76,7 +76,7 @@ main{
 }
 .pontos__title{
     font-family: 'Hubballi', cursive;
-    font-size: 6vmin;
+    font-size: 7vmin;
     text-align: center;
     padding: 10px;
 }
