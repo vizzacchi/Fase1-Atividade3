@@ -173,4 +173,80 @@ footer{
 .footer__text{
     font-size: 3vmin;
 }
+.sites__pontos{
+    background-color: #a82be2;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.museu{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e4d0ee;
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+.museu__ross{
+    width: 20%;
+    padding: 10px;
+    background-image: url(../images/Ross.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.museu__fonte{
+    width: 20%;
+    padding: 10px;
+    background-image: url(../images/Friends_fontain.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.museu__descricao{
+    width: 70%;
+    padding: 10px;
+    font-size: 2.5vmin;
+    text-indent: 50px;
+    text-align: justify;
+}
+.pontos__informacoes__cards__title{
+    font-family: 'Hubballi', cursive;
+    font-size: 3.5vmin;
+}
+.pontos__informacoes__cards p{
+    font-size: 2.5vmin;
+}
+.pontos__informacoes__cards a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+.pontos__informacoes__cards a:hover{
+    color:#a82be2
+}
+.museu__galeria{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.museu__galeria2{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.museu_image{
+    width: 20%;
+    margin: 20px;
+    border-radius: 5px;
+}
 
